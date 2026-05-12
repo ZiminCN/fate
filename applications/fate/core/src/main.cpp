@@ -20,6 +20,8 @@ int main(int argc, char *argv[]) {
         (void)argc;
         (void)argv;
 
+        k_sleep(K_MSEC(2000));
+
         while(1)
         {
                 printk("Hello, world!\n");

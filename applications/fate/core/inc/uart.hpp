@@ -13,9 +13,15 @@
 // limitations under the License.
 
 #pragma once
-#ifndef __MAIN_HPP__
-#define __MAIN_HPP__
+#ifndef __UART_HPP__
+#define __UART_HPP__
 
-#include "uart.hpp"
+class UART
+{
+        public:
+                UART() = default;
+                ~UART() = default;
+        private:
+};
 
-#endif // __MAIN_HPP__
+#endif // __UART_HPP__
